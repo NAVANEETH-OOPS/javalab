@@ -1,18 +1,9 @@
-import java.util.Arrays;
-public class first {
-
-
-        public static void main(String[] args) {
-            // Sample array
-            int[] array = { 5, 2, 9, 1, 5, 6 };
-
-            // Print original array
-            System.out.println("Original Array: " + Arrays.toString(array));
-
-            // Sorting the array
-            Arrays.sort(array);
-
-            // Print sorted array
-            System.out.println("Sorted Array: " + Arrays.toString(array));
-        }
+ public class first{
+    public static void main(String[] args) {
+        // Printing personal information using the print() method
+        System.out.print("Name: John Doe\n");
+        System.out.print("Age: 25\n");
+        System.out.print("Occupation: Software Developer\n");
+        System.out.print("Country: USA\n");
     }
+}
